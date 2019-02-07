@@ -14,10 +14,12 @@ class EmployeeAge implements Comparator<Employee>{
 		
 		List<Employee> listEmp = new ArrayList<Employee>();
 		
-		listEmp.add(new Employee("Tom", 25, 100000));
-		listEmp.add(new Employee("Jane",23,100001)); 
-		listEmp.add(new Employee("Alex",36,100005));
-		listEmp.add(new Employee("Sally",32,100003));
+		listEmp.add(new Employee("Tom", 25, 100000, 'Male', 'White'));
+		listEmp.add(new Employee("Jane", 23,100001, 'Female', 'White')); 
+		listEmp.add(new Employee("Alex", 36, 100005, 'Male', 'Black'));
+		listEmp.add(new Employee("Mahalia", 32, 100003, 'Female', 'Asian'));
+		listEmp.add(new Employee("Ahmed", 30, 100006, 'Male', 'Arab'));
+		listEmpl.add(new Employee("Satyajit", 28, 100004, 'Male', 'Indian'));
 		
 		System.out.println("Beforesorting:" + listEmp);
 		
