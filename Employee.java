@@ -39,7 +39,7 @@ public class Employee {
 
 	
 	public String toString(){
-		return String.format("(%s, %d, %d)", name, age, id, gender, ethBackground);
+		return String.format("(%s, %d, %d, %s, %s,)", name, age, id, gender, ethBackground);
 	}
 }	
 	
